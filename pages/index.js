@@ -83,7 +83,7 @@ function AboutUs(args) {
   return (
     <div className="md:flex md:justify-around m-auto lg:w-3/5">
       {callouts.map((callout) => (
-        <Card {...args} className="flex m-10">
+        <Card {...args} className="flex m-10" key={callout.name}>
           <Card.Image src={callout.imageSrc} alt={callout.imageAlt} />
           <Card.Body>
             <Card.Title tag="h2">{callout.name}</Card.Title>

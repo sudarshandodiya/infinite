@@ -51,6 +51,7 @@ function CourseTiers(args) {
         <Card
           {...args}
           className="m-10 lg:w-2/6 hover:scale-105 ease-in duration-200"
+          key={tier.name}
         >
           <Card.Image src={tier.imageSrc} alt={tier.imageAlt} className="" />
           <Card.Body>
