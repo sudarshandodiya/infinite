@@ -11,12 +11,17 @@
   "dependencies": {
     "@headlessui/react": "^1.6.4",
     "@heroicons/react": "^1.0.6",
+    "@mantine/core": "^4.2.10",
+    "@mantine/hooks": "^4.2.10",
+    "@mantine/next": "^4.2.10",
+    "daisyui": "^2.17.0",
     "next": "12.1.6",
     "react": "18.1.0",
+    "react-daisyui": "^2.0.4",
     "react-dom": "18.1.0",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1",
-    "tw-elements": "1.0.0-alpha12"
+    "tw-elements": "1.0.0-alpha12",
+    "typescript": "^4.7.4"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
